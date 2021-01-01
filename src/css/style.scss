@@ -1,0 +1,11 @@
+//@import 'base/fonts';
+//@import 'components/*';
+
+.input{
+	border:10px solid orange;
+
+	&::placeholder{
+		color:red;
+		font-size:20px;
+	}
+}
